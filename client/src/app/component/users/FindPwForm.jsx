@@ -21,7 +21,8 @@ function FindPwForm() {
             ) : (
                 <>
                     <p className={styles.guide_msg}>
-                        Forgot your account's password? Enter your email address and we'll check if your email is valid.
+                        Forgot your account&#39;s password? Enter your email address and we&#39;ll check if your email
+                        is valid.
                     </p>
                     <SignInput label="Email" />
                     <Button label="Check if your email is valid" type="Primary" isFullBtn={true} />
