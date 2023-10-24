@@ -29,7 +29,7 @@ async function Users() {
                 <SearchSection />
                 <div className={styles.user_items_container}>
                     {users.map((v) => (
-                        <UserItem email={v.email} nickname={v.username} image={v.image} />
+                        <UserItem email={v.email} nickname={v.username} image={v.image} key={v.username} />
                     ))}
                 </div>
             </div>
